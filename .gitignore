@@ -132,3 +132,7 @@ dmypy.json
 .gdb_history
 .DS_Store
 core
+/glibc_malloc_example/malloc_syscall_demo
+/documentation/HeapLAB.tar.gz
+/documentation/HeapLAB+Bible.pdf
+/gohello/gohello
