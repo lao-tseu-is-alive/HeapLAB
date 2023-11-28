@@ -32,6 +32,15 @@ If you check this binary with [checksec](https://github.com/lao-tseu-is-alive/ch
 
 
 you can find information on the history of this security tool in [Tobias Klein web](https://www.trapkit.de/tools/checksec/)
+<br><br>
+
+[Stack Canaries are very simple - at the beginning of the function, a random value is placed on the stack](https://ir0nstone.gitbook.io/notes/types/stack/canaries)
+
+[NX bit, wich stands for No eXecute](https://ir0nstone.gitbook.io/notes/types/stack/no-execute)
+
+[PIE stands for Position Independent Executable](https://ir0nstone.gitbook.io/notes/types/stack/pie)
+
+[Information on flags RPATH and RUNPATH](https://security.stackexchange.com/questions/161799/why-does-checksec-sh-highlight-rpath-and-runpath-as-security-issues/165762#165762)
 
 ### [RELRO: Relocation Read-Only](https://www.trapkit.de/articles/relro/) 
 RELRO is a generic exploit mitigation technique to harden the data sections of an Executable and Linkable Format (ELF) binary or process. RELRO has two different modes, which are described in detail below.
