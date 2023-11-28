@@ -42,6 +42,10 @@ you can find information on the history of this security tool in [Tobias Klein w
 
 [Information on flags RPATH and RUNPATH](https://security.stackexchange.com/questions/161799/why-does-checksec-sh-highlight-rpath-and-runpath-as-security-issues/165762#165762)
 
+
+[checksec security properties explained](https://opensource.com/article/21/6/linux-checksec)
+
+
 ### [RELRO: Relocation Read-Only](https://www.trapkit.de/articles/relro/) 
 RELRO is a generic exploit mitigation technique to harden the data sections of an Executable and Linkable Format (ELF) binary or process. RELRO has two different modes, which are described in detail below.
 
